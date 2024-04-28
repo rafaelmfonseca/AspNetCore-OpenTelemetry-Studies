@@ -2,7 +2,7 @@ services:
   jaeges:
     image: jaegertracing/all-in-one:latest
     environment:
-      - COLLERTOR_ZIPKIN_HTTP_PORT=:9411
+      - COLLECTOR_ZIPKIN_HTTP_PORT=9411
     ports:
       - 16686:16686
       - 4317:4317
